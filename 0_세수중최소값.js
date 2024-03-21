@@ -1,13 +1,9 @@
 function solution(a, b, c){
   let answer;
   function compareAB(m,n){
-    // console.log(m+'>'+n);
-    m>n ? answer=n:answer=m;
-  // console.log(answer+"::");
- 
+    m>n ? answer=n:answer=m; 
   }
   compareAB(a,b);
-  compareAB(a,c);
   compareAB(b,c);
 
   /*if(b>c){
@@ -16,6 +12,7 @@ function solution(a, b, c){
   if(a<c){
     answer= a
   }else{answer=c}*/
+
   /*if(a<b) answer=a;
   else answer=b;
   if(c<answer) answer=c; */
