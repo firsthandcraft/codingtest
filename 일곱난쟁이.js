@@ -16,7 +16,7 @@ function solution(arr){
 let arr=[20, 7, 23, 19, 10, 15, 25, 8, 13];
 console.log(solution(arr));
 
-//고차함수> 자신의 매개변수에 함수를 전달받는것
+//고차함수> 자신의 매개변수에 함수를 전달받는것 
 let a = [10,11,12,13,14,15];
 //1. forEach
 a.forEach((t,i)=>console.log(t,i));
