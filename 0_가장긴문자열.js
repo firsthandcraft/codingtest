@@ -12,5 +12,16 @@ let solution = (s) =>{
     }
     return answer;
 }
-let str=["teacher", "time", "student", "utiful", "good"];
-console.log(solution(str));
+let solution2 = (s) =>{
+    let answer , max =Number.MIN_SAFE_INTEGER;
+    // int는 자료형. 산술 연산 가능; null로 초기화 불가능; 
+    for (let x of s){
+        if(x.length > max){
+            max =x.length;
+            answer = x;
+        }
+    } return answer
+
+}
+let str=["teacher", "time", "student", "beautiful", "good"];
+console.log(solution2(str));
