@@ -4,7 +4,7 @@ let solution = (s) =>{
     for(let x of s){
         if(num < x.length){
             num = x.length;
-            answer = [];
+            answer = [];//움 여기가 어려웟다.
             answer.push(x);
         } else if (num === x.length) {
             answer.push(x);
