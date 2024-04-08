@@ -1,0 +1,24 @@
+let solution =(s) =>{
+    let answer="";
+    //console.log(s.indexOf("K"));
+   
+    for(let i=0; i<s.length; i++){
+        if(s.indexOf(s[i]) === i) answer+=s[i];
+        
+    }
+    return answer;
+}
+//indexOf :
+let solution2 =(s) =>{
+    let answer=0;
+    let pos = s.indexOf('k');
+    console.log(pos);
+    while(pos !== -1){
+        answer ++ ;//1
+        console.log("pos::",pos);
+        pos = s.indexOf('k',pos+1);//첫번째 찾은 뒤부터 찾아라는의미
+    }
+    return answer;
+}
+
+console.log(solution2("ksekkset"));
