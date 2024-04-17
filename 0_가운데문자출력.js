@@ -1,6 +1,6 @@
 let solution =(s) =>{
     let answer = "";
-    let mid = Math.floor(s.length/2)//해설봄 여기
+    let mid=Math.floor(s.length/2)//해설봄 여기
 
     if(s.length%2 == 0){
         //answer = s.substring(mid-1,mid+1);
